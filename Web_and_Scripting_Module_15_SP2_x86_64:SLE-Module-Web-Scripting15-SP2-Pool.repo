@@ -1,0 +1,6 @@
+[Web_and_Scripting_Module_15_SP2_x86_64:SLE-Module-Web-Scripting15-SP2-Pool]
+name=SLE-Module-Web-Scripting15-SP2-Pool
+enabled=1
+autorefresh=0
+baseurl=https://updates.suse.com/SUSE/Products/SLE-Module-Web-Scripting/15-SP2/x86_64/product?pPx8PA38B69AQBl_xFKUYYFhLCiNbKJ6R67uHWMEY2RLVLDUrO8fpOYJEuVq8bMIurwhc_Xd2zePCaM1xVPUQSN-xJOVeItQadww80UHai5hVCgcRAJVgzCLFz0tHksH8TuYPF1-FSYkr178M6V8Q5d8wgqtdYhRq-cr
+service=Web_and_Scripting_Module_15_SP2_x86_64

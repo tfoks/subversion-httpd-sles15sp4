@@ -1,0 +1,6 @@
+[Web_and_Scripting_Module_15_SP2_x86_64:SLE-Module-Web-Scripting15-SP2-Updates]
+name=SLE-Module-Web-Scripting15-SP2-Updates
+enabled=1
+autorefresh=1
+baseurl=https://updates.suse.com/SUSE/Updates/SLE-Module-Web-Scripting/15-SP2/x86_64/update?xNbtYzWpQKft_ejdwmw5W5s0nR8gg8lD2XAIS0EmA4tnjpIpT1L_676hdjg8rl1N_WlPnNnEbHW5o0TIqS1fTWaoru8qxqJk71h9muSVemKlKgPeE3zIrlK049U1gzhfx33L7tdgeu2oFwUHu6mLEwDDX9oap4K30Q
+service=Web_and_Scripting_Module_15_SP2_x86_64
