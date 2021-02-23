@@ -1,5 +1,7 @@
 FROM registry.suse.com/suse/sle15:15.2.8.2.844
 
+LABEL maintainer="thomas.foks@capgemini.com"
+
 COPY *.repo /etc/zypp/repos.d/
 
 ENV ADDITIONAL_MODULES sle-module-web-scripting
@@ -11,6 +13,7 @@ COPY etc/ /etc/apache2/
 COPY htdocs/ /srv/www/htdocs/
 
 EXPOSE 80 
+EXPOSE 443 
 
 ENTRYPOINT ["/usr/sbin/httpd"]
 
