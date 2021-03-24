@@ -1,4 +1,4 @@
-FROM registry.suse.com/suse/sle15:15.2.8.2.844
+FROM registry.suse.com/suse/sle15:15.2.8.2.862
 
 LABEL maintainer="thomas.foks@capgemini.com"
 
