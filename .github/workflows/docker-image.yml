@@ -1,0 +1,30 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  create:
+    branches: [ main ]
+
+jobs:
+
+  build:
+
+    # as this container image is intended for Ubuntu 20.04 we build on that
+    runs-on: ubuntu-20.04
+
+    steps:
+    - uses: actions/checkout@v2
+    # we will use the Git tag as version tag for the image, i.e. only running on "create" events makes sense
+    - name: Get the Ref
+      id: get-ref
+      uses: ankitvgupta/ref-to-tag-action@master
+      with:
+        ref: ${{ github.ref }}
+        head_ref: ${{ github.head_ref }}
+    - name: Get the tag
+      run: echo "The tag was ${{ steps.get-ref.outputs.tag }}"
+    - name: Build the Docker image
+      run: docker build . --file Dockerfile --tag subversion-httpd-ubuntu2004:${{ steps.get-ref.outputs.tag }}
