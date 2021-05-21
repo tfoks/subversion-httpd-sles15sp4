@@ -12,7 +12,8 @@ jobs:
 
   build:
 
-    # as this container image is intended for SLES 15SP2 we build on that (needs to be self-hosted as Github is not providing this)
+    # as this container image is intended for SLES 15SP2 we build on that
+    # (needs to be self-hosted as Github is not providing this)
     runs-on: [self-hosted, sles15sp2]
 
     steps:
