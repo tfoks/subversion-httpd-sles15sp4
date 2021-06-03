@@ -11,7 +11,6 @@ on:
 env:
   # TODO: Creates container named ACCOUNT/REPO
   #       Append /IMAGE-NAME to create a container named ACCOUNT/REPO/IMAGE-NAME
-  REPO: tfoks
   IMAGE_NAME: ${{ github.repository }}
 
   # Registry.
@@ -70,4 +69,4 @@ jobs:
         run: docker build . --file Dockerfile --tag ${{ secrets.DOCKER_HUB_USERNAME }}/${{ env.IMAGE_NAME }}:${{ steps.get-ref.outputs.tag }}
 
       - name: Push the Docker image
-        run: docker push ${{ env.REPO }}/${{ env.IMAGE_NAME }}:${{ steps.get-ref.outputs.tag }}
+        run: docker push ${{ env.IMAGE_NAME }}:${{ steps.get-ref.outputs.tag }}
