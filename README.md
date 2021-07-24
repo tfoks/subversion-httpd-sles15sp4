@@ -1,6 +1,6 @@
-# subversion-httpd-sles15sp2
+# subversion-httpd-sles15sp3
 
-![CI](https://github.com/tfoks/subversion-httpd-sles15sp2/actions/workflows/docker-image.yml/badge.svg)
+![CI](https://github.com/tfoks/subversion-httpd-sles15sp3/actions/workflows/docker-image.yml/badge.svg)
 
 # Quick reference
 
@@ -17,10 +17,10 @@
 # Quick reference (cont.)
 
 -	**Where to file issues**:  
-	[https://github.com/tfoks/subversion-httpd-sles15sp2/issues](https://github.com/tfoks/subversion-httpd-sles15sp2/issues)
+	[https://github.com/tfoks/subversion-httpd-sles15sp3/issues](https://github.com/tfoks/subversion-httpd-sles15sp3/issues)
 
 -	**Supported architectures**:  
-	[`amd64`](https://hub.docker.com/r/tfoks/subversion-httpd-sles15sp2/)
+	[`amd64`](https://hub.docker.com/r/tfoks/subversion-httpd-sles15sp3/)
 
 # What is this image for?
 
