@@ -121,7 +121,6 @@ $config->setGZipPath('/bin');
 //   Windows: c:\\svn
 //
 // $config->parentPath('filesystem path');
-//$config->parentPath('/prj/svntest2/svn');
 
 $config->parentPath("/prj/" . getenv('repo-repository') . "/svn");
 

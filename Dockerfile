@@ -15,7 +15,7 @@ COPY htdocs/ /srv/www/htdocs/
 # add WebSVN to htdocs
 COPY websvn-2.6.1.tar.gz /srv/www/htdocs/
 RUN cd /srv/www/htdocs && tar xzf websvn-2.6.1.tar.gz && mv websvn-2.6.1 websvn && rm websvn-2.6.1.tar.gz
-COPY config.php /etc/websvn/
+COPY config.php /srv/www/htdocs/websvn/include/
 
 RUN cd /srv/www/htdocs && chown -R wwwrun:www *
 
