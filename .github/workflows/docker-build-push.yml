@@ -44,7 +44,7 @@ jobs:
     # Ensure build job passes before pushing image.
     needs: build
 
-    runs-on: [self-hosted, sles15sp2]
+    runs-on: [self-hosted, sles15sp3]
 
     steps:
       - name: Check Out Repo 
