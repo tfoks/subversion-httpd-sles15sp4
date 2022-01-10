@@ -122,7 +122,7 @@ $config->setGZipPath('/bin');
 //
 // $config->parentPath('filesystem path');
 
-$config->parentPath("/prj/" . getenv('repo-repository') . "/svn");
+$config->parentPath(getenv('repo-websvn-parentpath'));
 
 // $config->parentPath('filesystem path', 'group');
 //
