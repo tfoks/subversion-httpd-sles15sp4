@@ -25,7 +25,7 @@ jobs:
     runs-on: [self-hosted, sles15sp3]
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     # we will use the Git tag as version tag for the image, i.e. only running on "create" events makes sense
     - name: Get the Ref
       id: get-ref
