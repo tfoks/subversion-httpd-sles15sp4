@@ -1,6 +1,7 @@
 # subversion-httpd-sles15sp3
 
 ![CI](https://github.com/tfoks/subversion-httpd-sles15sp3/actions/workflows/docker-image.yml/badge.svg)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md) 
 
 # Quick reference
 
