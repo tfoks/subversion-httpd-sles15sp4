@@ -7,7 +7,7 @@ COPY *.repo /etc/zypp/repos.d/
 ENV ADDITIONAL_MODULES sle-module-web-scripting
 
 RUN zypper refs && zypper --gpg-auto-import-keys refresh
-RUN zypper -n in apache2 php7 apache2-mod_php7 subversion-server subversion-tools enscript tar gzip sed diffutils
+RUN zypper -n in apache2 php8 apache2-mod_php8 subversion-server subversion-tools enscript tar gzip sed diffutils
 
 COPY apache2/ /etc/apache2/
 COPY htdocs/ /srv/www/htdocs/
