@@ -7,6 +7,10 @@ updates:
       interval: weekly
       day: friday
     open-pull-requests-limit: 10
+    ignore:
+      - dependency-name: suse/sle15
+        # ignore all updates on major, minor and patch
+        update-types: ["version-update:semver-major", "version-update:semver-minor", "version-update:semver-patch"]
 
   - package-ecosystem: github-actions
     directory: /
