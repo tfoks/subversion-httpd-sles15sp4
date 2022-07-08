@@ -1,4 +1,4 @@
-# subversion-httpd-sles15sp3
+# subversion-httpd-sles15sp4
 
 ![CI](https://github.com/tfoks/subversion-httpd-sles15sp3/actions/workflows/docker-image.yml/badge.svg)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md) 
@@ -10,10 +10,7 @@
 
 # Supported tags and respective `Dockerfile` links
 
--	[`0.5`, `latest-prod`, `latest-dev`, `latest`](n.n.)
-
-`latest-prod` points to a production ready version
-`latest-dev` points to the latest development version and may be unstable
+t.b.d.
 
 # Quick reference (cont.)
 
