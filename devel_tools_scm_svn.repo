@@ -1,7 +1,7 @@
 [devel_tools_scm_svn]
-name=Subversion and related tools (SLE_15_SP2)
+name=Subversion and related tools
 enabled=1
 autorefresh=0
-baseurl=https://download.opensuse.org/repositories/devel:/tools:/scm:/svn/SLE_15_SP2/
+baseurl=https://download.opensuse.org/repositories/devel:/tools:/scm:/svn/15.4/
 gpgcheck=1
-gpgkey=https://download.opensuse.org/repositories/devel:/tools:/scm:/svn/SLE_15_SP2/repodata/repomd.xml.key
+gpgkey=https://download.opensuse.org/repositories/devel:/tools:/scm:/svn/15.4/repodata/repomd.xml.key
